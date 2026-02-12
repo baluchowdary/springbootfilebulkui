@@ -9,3 +9,6 @@ File upload feature
 <img width="1803" height="321" alt="image" src="https://github.com/user-attachments/assets/4ac722b5-f3a8-41f5-86b7-19556bed94bd" />
 
 
+After file upload, display file data
+
+<img width="1851" height="727" alt="image" src="https://github.com/user-attachments/assets/c412ed9e-9385-4702-8696-06a133e648b6" />
