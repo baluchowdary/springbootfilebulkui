@@ -16,3 +16,10 @@ After file upload, display file data
 Records per page
 
 <img width="1619" height="441" alt="image" src="https://github.com/user-attachments/assets/87264a8b-1428-40ec-8172-567ebb60180b" />
+
+previous and Next page records
+
+<img width="1561" height="398" alt="image" src="https://github.com/user-attachments/assets/a5b5a59f-4b87-47be-845c-fc1351164bb5" />
+
+Dashboard data
+<img width="1905" height="892" alt="image" src="https://github.com/user-attachments/assets/4b28b1c1-bea8-484e-8857-597b95232010" />
