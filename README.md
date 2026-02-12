@@ -12,3 +12,7 @@ File upload feature
 After file upload, display file data
 
 <img width="1851" height="727" alt="image" src="https://github.com/user-attachments/assets/c412ed9e-9385-4702-8696-06a133e648b6" />
+
+Records per page
+
+<img width="1619" height="441" alt="image" src="https://github.com/user-attachments/assets/87264a8b-1428-40ec-8172-567ebb60180b" />
