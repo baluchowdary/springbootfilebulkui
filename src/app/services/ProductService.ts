@@ -25,6 +25,7 @@ export class ProductService {
 
   
   uploadProducts(formData: FormData) {
+    console.log('uploadProducts called with file:', formData.get('file'));
     return this.http.post(DASHBOARD_CONSTANTS.API_URL + DASHBOARD_CONSTANTS.UPLOAD_FILE, formData, {
       responseType: 'text' // Adjust response type if needed
     });

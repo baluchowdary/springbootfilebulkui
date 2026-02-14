@@ -1,32 +1,29 @@
 <div class="container mt-4">
-  
+
   <div class="card shadow border-0 mb-4">
     <div class="card-body py-3">
       <div class="row align-items-center">
         <div class="col-wd-1">
           <h2 class="mb-0 fw-bold">
-            <i class="bi bi-cloud-upload me-0"></i>Upload Product Data</h2>
+            <i class="bi bi-cloud-upload me-0"></i>Upload Product Data
+          </h2>
         </div>
         <div class="col-md-6">
           <div class="input-group">
-            <input 
-              type="file" 
-              class="form-control form-control-sm" 
-              id="productFile" 
-              (change)="onFileSelected($event)"
+            <input type="file" #fileInput class="form-control form-control-sm" id="productFile" (change)="onFileSelected($event)"
               accept=".csv, .xlsx, .xls">
-            <button 
-              class="btn btn-primary btn-sm px-4" 
-              type="button" 
-              (click)="onFileUpload(selectedFile())"
+            <button class="btn btn-primary btn-sm px-4" type="button" [disabled]="isUploading()" (click)="onFileUpload(fileInput)"
               [disabled]="!selectedFile() || isUploading()">
-              
+
               @if (isUploading()) {
-                <span class="spinner-border spinner-border-sm me-1"></span>
+              <span class="spinner-border spinner-border-sm me-1"></span>
               } @else {
-                <i class="bi bi-check-lg me-1"></i>
+              <i class="bi bi-check-lg me-1"></i>
               }
               Upload
+            </button>
+            <button class="btn btn-outline-danger ms-5" (click)="onClearDatabase()">
+              <i class="fa fa-trash"></i> Clear DB
             </button>
           </div>
         </div>
