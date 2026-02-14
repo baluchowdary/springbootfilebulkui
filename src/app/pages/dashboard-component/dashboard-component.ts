@@ -82,7 +82,7 @@ export class DashboardComponent implements OnInit {
         setTimeout(() => {
            this.loadData();
            this.isLoading.set(false); // Ensure loading state is reset after data is fetched
-        }, 500); // Delay to ensure backend has processed the upload before fetching new data
+        }, 100); // Delay to ensure backend has processed the upload before fetching new data
 
 
         // this.loadData(); // refresh table after upload
