@@ -70,6 +70,7 @@
             <th>Name</th>
             <th>Price</th>
             <th>Category</th>
+            <th>Volume</th>
           </tr>
         </thead>
         <tbody>
@@ -78,11 +79,13 @@
             <td class="text-muted">{{ product.id }}</td>
             <td class="fw-semibold">{{ product.name }}</td>
             <td class="text-dark">{{ product.price | currency }}</td>
-            <td>
+            <td class="text-dark">{{ product.category }}</td>
+            <td class="text-dark">{{ product.volume }}</td>
+            <!-- <td>
               <span class="badge rounded-pill bg-info text-dark px-3">
                 {{ product.category }}
               </span>
-            </td>
+            </td> -->
           </tr>
           } @empty {
           <tr>
