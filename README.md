@@ -23,3 +23,7 @@ previous and Next page records
 
 Dashboard data
 <img width="1905" height="892" alt="image" src="https://github.com/user-attachments/assets/4b28b1c1-bea8-484e-8857-597b95232010" />
+
+Added ore fields to adjust table grid
+
+<img width="1763" height="725" alt="image" src="https://github.com/user-attachments/assets/38881c47-7268-4134-919a-37d6446e5fad" />
